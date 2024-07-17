@@ -47,8 +47,8 @@ This repository contains a microservice developed using Python, Flask, MongoDB, 
     PUT: Updates an existing item by ID.
     DELETE: Deletes an item by ID.
 
-  /health
-   GET: Checks the health status of the microservice.
+   /health
+    GET: Checks the health status of the microservice.
 
 6. Deployment on Kubernetes:
    -Ensure Kubernetes is set up and kubectl is configured to the correct cluster.
@@ -65,16 +65,16 @@ This repository contains a microservice developed using Python, Flask, MongoDB, 
    Python 3.x
    Requests library (pip install requests)
    
-*Usage
-   Clone the client repository:
-   git clone https://github.com/yourusername/microservice-client.git
-   cd microservice-client
+   *Usage
+      -Clone the client repository:
+           git clone https://github.com/yourusername/microservice-client.git
+           cd microservice-client
 
-   Update the client configuration (config.py) with the microservice endpoint (local or Kubernetes):
-   BASE_URL = 'http://localhost:5000'  # Update with your microservice endpoint
+      -Update the client configuration (config.py) with the microservice endpoint (local or Kubernetes):
+           BASE_URL = 'http://localhost:5000'  # Update with your microservice endpoint
 
-   Run the client application:
-   python client.py
+      -Run the client application:
+           python client.py
 
 
    
